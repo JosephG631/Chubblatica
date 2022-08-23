@@ -1,0 +1,20 @@
+﻿  Alien.cpp
+  AlienWave.cpp
+  AnimatedGameSprite.cpp
+  AudioManager.cpp
+  Boss.cpp
+  Bullet.cpp
+  CollisionDetection.cpp
+  Game.cpp
+  GameSound.cpp
+  GameSprite.cpp
+  GameText.cpp
+  Grunt.cpp
+  InputManager.cpp
+  Main.cpp
+  ObjectManager.cpp
+  PlayerData.cpp
+  PlayerShip.cpp
+  TextureManager.cpp
+  Generating Code...
+  SFMLFramework.vcxproj -> G:\Uni Year 2\Module 8\Game Final\SFMLFramework\Debug\SFMLFramework.exe

@@ -1,0 +1,5 @@
+x  x  x  b5  b5  b5  b5  x  x   x 
+x  g5 g5 g4  g1  g1  g4  g5 g5  x
+x  g4 g3 g3  g1  g1  g3  g3 g4  x
+f4 f3 f2 f2  f1  f1  f2  f2 f3  f4
+f4 f3 f2 f2  f1  f1  f2  f2 f3  f4

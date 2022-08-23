@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ad7a5af5-472e-4f6a-bfcb-396ba33688af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio">
+      <UniqueIdentifier>{c301e1cf-1297-4dfc-a687-cf28f6f575bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{d36c9d5e-35cf-4243-a347-232f340d8dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Font">
+      <UniqueIdentifier>{94d32839-2295-40b4-af88-fce15a0b6447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GameObjects">
+      <UniqueIdentifier>{dfe51219-ae74-4170-83c7-ffe24a6c1da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GameObjects\Headers">
+      <UniqueIdentifier>{85f73549-75ea-4233-863e-cab4a3fbbf54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GameObjects\cpps">
+      <UniqueIdentifier>{ed4c2ec7-6175-4c4c-991b-2e57fc576c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Managers">
+      <UniqueIdentifier>{329664e0-85fd-4af6-b283-75391bb69e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Managers\Headers">
+      <UniqueIdentifier>{346d3576-2ab6-4a3d-bd65-5f7dcf3c0d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Managers\cpps">
+      <UniqueIdentifier>{9d4fa34d-6c5e-45f3-b794-1868df7322ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Enums">
+      <UniqueIdentifier>{d1143c36-a201-49be-880b-25ed0cc3bd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sytem">
+      <UniqueIdentifier>{d76f79bb-56fe-4ba1-834d-b06636ccec90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sytem\Headers">
+      <UniqueIdentifier>{21330fd8-447b-4bd1-a415-12f5862effdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sytem\Cpps">
+      <UniqueIdentifier>{7c036363-959e-4120-8b74-1a2c6cc3aa3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alien.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Grunt.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienWave.cpp">
+      <Filter>Resource Files\Managers\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Resource Files\Managers\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Resource Files\Managers\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Resource Files\Managers\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Resource Files\Managers\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameSprite.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Resource Files\Sytem\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Resource Files\Sytem\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Resource Files\Sytem\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files\Sytem\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Resource Files\GameObjects\cpps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alien.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameSprite.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Grunt.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Resource Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Resource Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienWave.h">
+      <Filter>Resource Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Resource Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Resource Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienStatus.h">
+      <Filter>Resource Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>Resource Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Resource Files\Sytem\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Resource Files\Sytem\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Resource Files\Sytem\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Resource Files\Sytem\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Resource Files\Sytem\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Resource Files\GameObjects\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UIShip.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="explosion.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="G:\Uni Year 2\Module 8\SFMLFramework\SFMLFramework\fly.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="GameLogo.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="grunt.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Ship.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="spaceSpriteSheet.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="bullet.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="boss.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="ShootOne.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="ShootTwo.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="ArcadeJam.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="aliendeath.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="playerDeath.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="MenuSound.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="emulogic.ttf">
+      <Filter>Assets\Font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Helpers.inl">
+      <Filter>Resource Files\Sytem</Filter>
+    </None>
+  </ItemGroup>
+</Project>
